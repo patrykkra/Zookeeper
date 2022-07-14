@@ -126,7 +126,7 @@ while choice != "exit":
     print("Please enter the number of the habitat you would like to view:")
     choice = input("> ")
     if choice == "exit":
-        print("See you later!!")
+        print("See you later!")
         break
     print(animals[int(choice)])
     choice = 0
